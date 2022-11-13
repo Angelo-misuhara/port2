@@ -1,0 +1,331 @@
+body{
+  font-family: Poppins;
+  background-color: #f2f7f5;
+}
+.title{
+  position:absolute;
+  color:#00473e ;
+  top:20px;
+  left: 30px;
+}
+.buttonStart{
+  font-family: Poppins;
+  color: #00473e;
+  position:absolute;
+  background-color:#faae2b;
+  top:35px;
+  right: 70px;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+.learnmore{
+  font-family: Poppins;
+  color: #00473e;
+  position:absolute;
+  background-color:#faae2b;
+  top:35px;
+  right: 70px;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 2px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  top: 630px;
+  left: 140px;
+  width: 130px;
+  animation-name: learn;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+.learnmore:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+@keyframes learn {
+  0%   { left:-100px;top:  630px;}
+  25%  { left: 140px;top:  630px;}
+  50%  { left: 140px; top:  630px;}
+  75%  { left: 140px; top:  630px;}
+  100% {  left: 140px;top:  630px;}
+}
+.buttonStart:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.Info{
+  font-family: Poppins;
+  color: #00473e;
+  position:absolute;
+  background-color:#f2f7f5;
+  top:35px;
+  right: 230px;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+.Info:hover {
+  color: #4CAF50;
+}
+.Work{
+  font-family: Poppins;
+  color: #00473e;
+  position:absolute;
+  background-color:#f2f7f5;
+  top:35px;
+  right: 320px;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 6px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+.Work:hover {
+  color: #4CAF50;
+}
+.about{
+  font-family: Poppins;
+  color: #00473e;
+  position:absolute;
+  background-color:#f2f7f5;
+  top:35px;
+  right: 390px;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 6px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+.about:hover {
+  color: #4CAF50;
+}
+.picture1{
+  position: absolute;
+  width: 400px;
+  top: 240px;
+  right: 180px;
+  animation-name: example1;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+@keyframes example1 {
+  0%   { right:-100px; top: 240px;}
+  25%  { right: 180px; top: 240px;}
+  50%  { right: 180px;  top: 240px;}
+  75%  { right: 180px;  top: 240px;}
+  100% {  right: 180px; top: 240px;}
+}
+.headde{
+  color: #00473e;
+  position: absolute;
+  top: 260px;
+  left: 140px;
+}
+.p1{
+  color: #475d5b;
+  position: absolute;
+  width: 450px;
+  text-align: justify;
+  top: 330px;
+  left: 140px;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+@keyframes example {
+  0%   { left:-100px;top: 330px;}
+  25%  { left: 140px;top: 330px;}
+  50%  { left: 140px; top: 330px;}
+  75%  { left: 140px; top: 330px;}
+  100% {  left: 140px;top: 330px;}
+}
+.serviceOfffers{
+  color: #00473e;
+  position: absolute;
+  top:850px;
+  left: 42%;
+}
+.design{
+  position: absolute;
+  width: 400px;
+  top:950px;
+  left: 100px;
+}
+.p2{
+  color: #475d5b;
+  position: absolute;
+  width: 450px;
+  text-align: justify;
+  top:1040px;
+  right: 180px;
+}
+.webDesignhead{
+  color: #00473e;
+  position: absolute;
+  top:960px;
+  right: 490px;
+}
+.bugPic{
+  position: absolute;
+  width: 500px;
+  top: 1650px;
+  right: 160px;
+}
+.fixbug{
+  color: #00473e;
+  position: absolute;
+  top: 1650px;
+  left: 100px;
+}
+.p3{
+  color: #475d5b;
+  position: absolute;
+  width: 450px;
+  text-align: justify;
+  top: 1720px;
+  left: 100px;
+}
+.analytics{
+  color: #00473e;
+  position: absolute;
+  top: 2200px;
+  right: 540px;
+}
+.p4{
+  color: #475d5b;
+  position: absolute;
+  width: 450px;
+  text-align: justify;
+  top:2270px;
+  right: 180px;
+}
+.analPic{
+  position: absolute;
+  width: 300px;
+  top:2270px;
+  left: 100px;
+}
+.custom-shape-divider-bottom-1668336489 {
+  position: absolute;
+  top: 2700px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1668336489 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1668336489 .shape-fill {
+  fill: black;
+}
+.container{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+  position: absolute;
+  top:2800px;
+  left: 0;
+  right: 0;
+  background:black;
+  height: 300px;
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
+}
+.mes{
+  position:relative;
+  left:40px;
+}
+.input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #c5c5c5,
+-20px -20px 60px #ffffff;
+  position: relative;
+  top:2900px;
+  left:40px;
+  transition: 0.3s;
+}
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+inset -20px -20px 60px #ffffff;
+transition: 0.3s;
+}
+.button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: black;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  top:2900px;
+  left:80px;
+}
+button:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px whitesmoke;
+  color: black;
+  transform: translateY(-7px);
+}
+button:active {
+  transform: translateY(-1px);
+}
+.logo{
+  width: 250px;
+  position:absolute;
+  top:2850px;
+  right:30px;
+  border-radius: 20px;
+}
+.aboutUs{
+  position: absolute;
+  left:650px;
+  top: 40px;
+}
+.abt{
+  position: absolute;
+  left:650px;
+  top: 80px;
+  width: 450px;
+}
